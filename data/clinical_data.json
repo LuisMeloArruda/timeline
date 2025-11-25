@@ -1,0 +1,229 @@
+{
+  "groups": [
+    {
+      "orderType": 1,
+      "colour": "#ff0000",
+      "nameType": "Allergy Intolerance",
+      "idType": 1
+    },
+    {
+      "orderType": 2,
+      "colour": "#ffaa00",
+      "nameType": "Condition",
+      "idType": 2
+    },
+    {
+      "orderType": 3,
+      "colour": "#0044ff",
+      "nameType": "Medication",
+      "idType": 3
+    },
+    {
+      "orderType": 4,
+      "colour": "#00ff00",
+      "nameType": "Immunization",
+      "idType": 4
+    },
+    {
+      "orderType": 5,
+      "colour": "#f700ff",
+      "nameType": "Observation",
+      "idType": 5
+    }
+  ],
+  "items": [
+    {
+      "name": "Peanut Allergy",
+      "initialDate": "2024-11-04",
+      "finalDate": "2024-11-07",
+      "description": "<p>Severe allergy to peanuts causing anaphylaxis.</p>",
+      "idType": 1
+    },
+    {
+      "name": "Peanut Allergy",
+      "initialDate": "2024-11-08",
+      "finalDate": "2024-11-09",
+      "description": "<p>Severe allergy to peanuts causing anaphylaxis.</p>",
+      "idType": 1
+    },
+    {
+      "name": "Pollen Allergy",
+      "initialDate": "2024-04-12",
+      "finalDate": "2024-04-15",
+      "description": "<p>Learn more about seasonal allergies <a href=\"https://www.aafa.org/pollen-allergy/\" target=\"_blank\">here</a>.</p>",
+      "idType": 1
+    },
+    {
+      "name": "Shellfish Allergy",
+      "initialDate": "2025-01-20",
+      "finalDate": "2025-01-23",
+      "description": "<p>Reaction includes hives and digestive issues.</p>",
+      "idType": 1
+    },
+    {
+      "name": "Dust Mite Allergy",
+      "initialDate": "2024-09-10",
+      "finalDate": "2024-09-13",
+      "description": "<p>Causes nasal congestion and asthma symptoms.</p>",
+      "idType": 1
+    },
+    {
+      "name": "Latex Allergy",
+      "initialDate": "2023-12-01",
+      "finalDate": "2023-12-04",
+      "description": "<p>Skin irritation and potential respiratory issues.</p>",
+      "idType": 1
+    },
+
+    {
+      "name": "Asthma",
+      "initialDate": "2024-07-05",
+      "finalDate": "2024-07-09",
+      "description": "<p>Chronic condition affecting breathing.</p>",
+      "idType": 2
+    },
+    {
+      "name": "Diabetes Type 2",
+      "initialDate": "2023-11-10",
+      "finalDate": "2023-11-15",
+      "description": "<p>Blood sugar management condition.</p>",
+      "idType": 2
+    },
+    {
+      "name": "Hypertension",
+      "initialDate": "2025-03-18",
+      "finalDate": "2025-03-22",
+      "description": "<p>See tips on controlling high blood pressure <a href=\"https://www.heart.org/en/health-topics/high-blood-pressure\" target=\"_blank\">here</a>.</p>",
+      "idType": 2
+    },
+    {
+      "name": "Eczema",
+      "initialDate": "2024-06-08",
+      "finalDate": "2024-06-11",
+      "description": "<p>Skin condition with inflammation and itching.</p>",
+      "idType": 2
+    },
+    {
+      "name": "Migraine",
+      "initialDate": "2025-02-05",
+      "finalDate": "2025-02-09",
+      "description": "<p>Recurring severe headaches often with nausea.</p>",
+      "idType": 2
+    },
+
+    {
+      "name": "Ibuprofen 400mg",
+      "initialDate": "2024-08-14",
+      "finalDate": "2024-08-18",
+      "description": "<p>Pain relief and anti-inflammatory medication.</p>",
+      "idType": 3
+    },
+    {
+      "name": "Metformin",
+      "initialDate": "2024-10-01",
+      "finalDate": "2024-10-04",
+      "description": "<p>Learn how metformin helps control blood sugar <a href=\"https://www.drugs.com/metformin.html\" target=\"_blank\">here</a>.</p>",
+      "idType": 3
+    },
+    {
+      "name": "Lisinopril",
+      "initialDate": "2025-04-02",
+      "finalDate": "2025-04-06",
+      "description": "<p>Prescribed for high blood pressure.</p>",
+      "idType": 3
+    },
+    {
+      "name": "Cetirizine",
+      "initialDate": "2024-03-05",
+      "finalDate": "2024-03-08",
+      "description": "<p>Antihistamine for allergy symptoms.</p>",
+      "idType": 3
+    },
+    {
+      "name": "Amoxicillin",
+      "initialDate": "2023-10-11",
+      "finalDate": "2023-10-15",
+      "description": "<p>Antibiotic used to treat bacterial infections.</p>",
+      "idType": 3
+    },
+
+    {
+      "name": "COVID-19 Vaccine",
+      "initialDate": "2024-01-22",
+      "finalDate": "2024-01-22",
+      "description": "<p>Pfizer vaccine, first dose administered.</p>",
+      "idType": 4
+    },
+    {
+      "name": "Influenza Vaccine",
+      "initialDate": "2023-11-30",
+      "finalDate": "2023-11-30",
+      "description": "<p>More about flu vaccines <a href=\"https://www.cdc.gov/flu/prevent/index.html\" target=\"_blank\">on CDC</a>.</p>",
+      "idType": 4
+    },
+    {
+      "name": "Tetanus Booster",
+      "initialDate": "2024-04-06",
+      "finalDate": "2024-04-06",
+      "description": "<p>Tdap booster for tetanus, diphtheria, pertussis.</p>",
+      "idType": 4
+    },
+    {
+      "name": "Hepatitis B Vaccine",
+      "initialDate": "2025-02-17",
+      "finalDate": "2025-02-17",
+      "description": "<p>Complete dose for Hepatitis B immunization.</p>",
+      "idType": 4
+    },
+    {
+      "name": "MMR Vaccine",
+      "initialDate": "2024-02-19",
+      "finalDate": "2024-02-19",
+      "description": "<p>Measles, Mumps, and Rubella combined vaccine.</p>",
+      "idType": 4
+    },
+
+    {
+      "name": "Blood Pressure Check",
+      "initialDate": "2025-04-14",
+      "finalDate": "2025-04-14",
+      "description": "<p>Systolic: 120, Diastolic: 80 mmHg — normal reading.</p>",
+      "idType": 5
+    },
+        {
+      "name": "Blood Pressure Check",
+      "initialDate": "2025-04-14",
+      "finalDate": "2025-04-14",  
+      "description": "<p>Systolic: 120, Diastolic: 80 mmHg — normal reading.</p>",
+      "idType": 5
+    },
+    {
+      "name": "Cholesterol Test",
+      "initialDate": "2024-10-21",
+      "finalDate": "2024-10-21",
+      "description": "<p>Understanding cholesterol levels <a href=\"https://www.cdc.gov/cholesterol/index.htm\" target=\"_blank\">here</a>.</p>",
+      "idType": 5
+    },
+    {
+      "name": "Blood Glucose Level",
+      "initialDate": "2023-09-13",
+      "finalDate": "2023-09-13",
+      "description": "<p>Fasting glucose: 95 mg/dL.</p>",
+      "idType": 5
+    },
+    {
+      "name": "Weight Measurement",
+      "initialDate": "2024-06-25",
+      "finalDate": "2024-06-25",
+      "description": "<p>Body weight recorded: 72kg.</p>",
+      "idType": 5
+    },
+    {
+      "name": "Heart Rate",
+      "initialDate": "2023-12-12",
+      "finalDate": "2023-12-12",
+      "description": "<p>Resting heart rate: 68 bpm.</p>",
+      "idType": 5
+    }
+  ]
+}

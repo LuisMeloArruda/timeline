@@ -1,0 +1,301 @@
+/* ============================================
+   Root Variables (Light and Dark Themes)
+   ============================================ */
+
+   :root {
+    --primary-color: #005de7;
+    --secondary-color: #214f94;
+    --background-color: #e9f1ff;
+    --borders-color: #9fc5ff;
+    --closewhite: #e0f7fa;
+    --closeblack: #1a2a40;
+    --text: #000000;
+    --secondary-text: #444444;
+
+    --body-background: #ffffff;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --primary-color: #004bbb;
+      --secondary-color: #223f6a;
+      --background-color: #112240;
+      --borders-color: #005be4;
+      --closewhite: #e0f7fa;
+      --closeblack: #1a2a40;
+      --text: #ffffff;
+      --secondary-text: #a8a8a8;
+
+      --body-background: #242424;
+    }
+  }
+  
+  /* ============================================
+     Global Styles (não serão enviados ao cliente - o widget deve se adaptar a qualquer ambiente)
+     ============================================ */
+  
+  body {
+    background-color: var(--body-background);
+    font-family: 'Segoe UI', 'Roboto Mono', monospace;
+    color: var(--closewhite);
+    width: 65em;
+    margin: auto;
+    padding: 1rem;
+    overflow: hidden;
+  }
+  
+  /* ============================================
+     Containers
+     ============================================ */
+  
+  .container {
+    background-color: var(--background-color);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .containerTimeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: inset 0 0 10px var(--closeblack);
+  }
+  
+  .containerTimeline > * {
+    margin: 1em;
+  }
+  
+  .containerTimeline > :nth-child(2) {
+    margin-left: auto;
+  }
+  /* ============================================
+     Filter Toogle Button
+     ============================================ */
+
+  #toggleFilterButton {
+    background: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    width: 1%;
+  }
+
+  #toggleFilterButton img {
+    display: block;
+  }
+  /* ============================================
+     Buttons
+     ============================================ */
+
+  #openSearchPopup {
+    padding: 10px 16px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .generic-button {
+    background-color: var(--primary-color);
+    color: var(--closewhite);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 12px;
+    border: none;
+    transition: all 0.2s ease;
+  }
+  
+  .generic-button:hover {
+    background-color: var(--borders-color);
+    box-shadow: 0 0 10px var(--borders-color);
+    transform: scale(1.03);
+  }
+  
+  .generic-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--borders-color);
+  }
+  
+  /* ============================================
+     Inputs
+     ============================================ */
+  
+  input[type="date"] {
+    background-color: var(--background-color);
+    border: 1px solid var(--borders-color);
+    color: var(--text);
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  
+  input[type="date"]:focus {
+    box-shadow: 0 0 5px var(--borders-color);
+    outline: none;
+  }
+  
+  .date-filterLabel {
+    color: var(--closewhite);
+    font-weight: 600;
+    margin-right: 0.5rem;
+  }
+  
+  .date-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  /* ============================================
+     Content Dropdown
+     ============================================ */
+  
+  .dropdownlist {
+    position: relative;
+  }
+  
+  .list {
+    background-color: var(--background-color);
+    border: 1px solid var(--borders-color);
+    border-radius: 8px;
+    color: var(--text);
+    padding: 0.5rem;
+    display: none;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .list .content {
+    color: var(--text);
+  }
+  
+  .content:hover {
+    background-color: var(--borders-color);
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  /* ============================================
+     Timeline
+     ============================================ */
+  
+  .fc-daygrid-day-header, .fc-multimonth-title, .fc-daygrid-day-body {
+    cursor: pointer;
+  }
+
+  #visualization {
+    border: 2px solid var(--borders-color);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 10px var(--closeblack);
+    flex-grow: 1;
+    overflow: auto;
+    color: var(--closewhite);
+  }
+  
+  /* vis.js Customizations */
+  
+  .vis-timeline {
+    border: none !important;
+  }
+  
+  .vis-time-axis .vis-text,
+  .vis-label .vis-group-level-0,
+  .vis-labelset .vis-label .vis-inner,
+  .vis-item {
+    color: var(--text) !important;
+  }
+
+  .generic-button, .vis-inner {
+    cursor: pointer;
+  }
+  
+  .vis-label .vis-group-level-0 {
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .vis-labelset .vis-label .vis-inner {
+    display: inline-block;
+    padding: 5px;
+  }
+
+  #item-popup {
+    color: var(--text);
+    background-color: var(--background-color);
+
+    .item-popup-description {
+        color: var(--secondary-text);
+    }
+  }
+  
+  /* ============================================
+     FullCalendar Customizations
+     ============================================ */
+  
+  #Calendar-popup,
+  #popup-calendar,
+  .fc {
+    background-color: var(--background-color) !important;
+    color: var(--text) !important;
+    border-radius: 12px;
+  }
+  
+  .fc .fc-daygrid-day-number,
+  .fc .fc-col-header-cell-cushion,
+  .fc .fc-toolbar-title {
+    color: var(--text) !important;
+  }
+  
+  .fc .fc-button-primary {
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--closewhite);
+  }
+  
+  .fc .fc-button-primary:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .fc-button:disabled {
+    opacity: 0.65;
+  }
+  
+  /* ============================================
+     Highlighted Clinical Numbers
+     ============================================ */
+  
+  .number-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--closewhite);
+    text-shadow: 0 0 8px var(--borders-color);
+  }
+  
+  .vitals-display {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* ============================================
+      Hidden utility class used to toogle visibility
+      ============================================ */
+
+  .hidden {
+    display: none !important;
+  }

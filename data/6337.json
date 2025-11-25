@@ -1,0 +1,198 @@
+{
+  "EPISODIOS": [
+    {
+      "tipo": "INTERNAMENTO",
+      "start": "26-01-2024 11:02",
+      "end": null,
+      "title": "Internamento",
+      "id_episodio": "1379",
+      "description": "<br>/////////Bloco partos - Sala de partos/////////Dr(a). VC Teste; "
+    },
+    {
+      "tipo": "INTERNAMENTO",
+      "start": "31-01-2024 ",
+      "end": null,
+      "title": "Internamento",
+      "id_episodio": "1385",
+      "description": "<br>/////////////; "
+    },
+    {
+      "tipo": "INTERNAMENTO",
+      "start": "17-02-2024 13:19",
+      "end": null,
+      "title": "Internamento",
+      "id_episodio": "1392",
+      "description": "<br>/////////Bloco Partos - Sala de vigilancia/////////Dr(a). VC Teste; "
+    },
+    {
+      "tipo": "CONSULTAS",
+      "start": "24-01-2024",
+      "title": "Consulta",
+      "id_episodio": "7930",
+      "description": "Sem Diário no ObsCare.nnnnnnnnn24-01-2024 13:09nnnnnnnnn1377nnnnnnnnn13:09nnnnnnnnnDr(a). VC Testennnnnnnnn"
+    },
+    {
+      "tipo": "CONSULTAS",
+      "start": "29-01-2024",
+      "title": "Consulta",
+      "id_episodio": "7935",
+      "description": "<hr><b>Diário obtido do ObsCare.</b><hr>asdasdasdasdnnnnnnnnn29-01-2024 12:16nnnnnnnnn1381nnnnnnnnn12:16nnnnnnnnnDr(a). VC Testennnnnnnnn"
+    },
+    {
+      "tipo": "CONSULTAS",
+      "start": "03-02-2024",
+      "title": "Consulta",
+      "id_episodio": "7943",
+      "description": "Sem Diário no ObsCare.nnnnnnnnn03-02-2024 nnnnnnnnn1386nnnnnnnnnnnnnnnnnnDr(a). VC Testennnnnnnnn"
+    },
+    {
+      "tipo": "CONSULTAS",
+      "start": "03-02-2024",
+      "title": "Consulta",
+      "id_episodio": "7942",
+      "description": "Sem Diário no ObsCare.nnnnnnnnn03-02-2024 00:24nnnnnnnnn1386nnnnnnnnn00:24nnnnnnnnnDr(a). VC Testennnnnnnnn"
+    },
+    {
+      "tipo": "CONSULTAS",
+      "start": "16-02-2024",
+      "title": "Consulta",
+      "id_episodio": "7963",
+      "description": "<hr><b>Diário obtido do ObsCare.</b><hr>1 pos cesariana<br>Diab gestacional<br>Nauseas durante a noite, melhor agora. Tolerou levante<br>Apiretica, normotensa<br>Mucosas coradas e hidratadas<br>Mamas moles e indolores<br>Abdomen mole e depressivel, utero contraido<br>Penso repassado, seco<br>Loquios normais<br>Membros inf sem sinais de TVP/TVS<br>D1 pos cesariana<br>Diab gestacional<br>Nauseas durante a noite, melhor agora. Tolerou levante<br>Apiretica, normotensa<br>Mucosas coradas e hidratadas<br>Mamas moles e indolores<br>Abdomen mole e depressivel, utero contraido<br>Penso repassado, seco<br>Loquios normais<br>Membros inf sem sinais de TVP/TVSnnnnnnnnn16-02-2024 17:22nnnnnnnnn1390nnnnnnnnn17:22nnnnnnnnnDr(a). VC Testennnnnnnnn"
+    },
+    {
+      "tipo": "CONSULTAS",
+      "start": "17-02-2024",
+      "title": "Consulta",
+      "id_episodio": "7964",
+      "description": "Sem Diário no ObsCare.nnnnnnnnn17-02-2024 12:59nnnnnnnnn1391nnnnnnnnn12:59nnnnnnnnnDr(a). VC Testennnnnnnnn"
+    },
+    {
+      "tipo": "URGENCIA",
+      "start": "24-01-2024",
+      "title": "Urgencia",
+      "id_episodio": "1378",
+      "description": "<div><b>Avaliação Médica em 24-01-2024 23:26 por Dr(a). VC Teste (100)</b><br/><span style='padding-left:20px;display:block;'><i>sdfsdfsdfsdfsdfsdf</i><br></span><br/></div>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn"
+    },
+    {
+      "tipo": "INT_PROGRAMADOS",
+      "start": "29-01-2024",
+      "title": "Internamento Programado",
+      "id_episodio": "7936",
+      "description": "Internamento programado no dia 29-01-2024.nnnnnnnnnnnnnnnnnn07-02-2024nnnnnnnnnnnnnnnnnn"
+    },
+    {
+      "tipo": "INICIO",
+      "start": "01-01-2024",
+      "title": "Inicio de Gestação",
+      "id_episodio": "1392",
+      "description": "<div><b>Avaliação Médica em 24-01-2024 23:26 por Dr(a). VC Teste (100)</b><br/><span style='padding-left:20px;display:block;'><i>sdfsdfsdfsdfsdfsdf</i><br></span><br/></div>"
+    }
+  ],
+  "ARRAY_EVENTO": [
+    {
+      "tipo": "Admissao",
+      "data_inicio": "26-01-2024 11:02",
+      "data_fim": "",
+      "id": "1379",
+      "titulo": "Admissao",
+      "action": "26-01-2024 11:02nnnnnnnnnnnnnnnnnn7932nnnnnnnnn</br></br>Admissão para: Bloco partos - Sala de partosnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnDr(a). VC Testennnnnnnnn",
+      "description": "/////Bloco partos - Sala de partos; "
+    },
+    {
+      "tipo": "Alta",
+      "data_inicio": null,
+      "data_fim": "",
+      "id": "1379",
+      "titulo": "Alta",
+      "action": "nnnnnnnnnnnnnnnnnn7932nnnnnnnnn<br>/////////Bloco partos - Sala de partosnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "description": "<br>/////////Bloco partos - Sala de partos; "
+    },
+    {
+      "tipo": "Admissao",
+      "data_inicio": "31-01-2024 ",
+      "data_fim": "",
+      "id": "1385",
+      "titulo": "Admissao",
+      "action": "31-01-2024 nnnnnnnnnnnnnnnnnnnnnnnnnnn</br></br>Admissão para: nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "description": "/////; "
+    },
+    {
+      "tipo": "Alta",
+      "data_inicio": null,
+      "data_fim": "",
+      "id": "1385",
+      "titulo": "Alta",
+      "action": "nnnnnnnnnnnnnnnnnnnnnnnnnnn<br>/////////nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "description": "<br>/////////; "
+    },
+    {
+      "tipo": "Admissao",
+      "data_inicio": "17-02-2024 13:19",
+      "data_fim": "",
+      "id": "1392",
+      "titulo": "Admissao",
+      "action": "17-02-2024 13:19nnnnnnnnnnnnnnnnnn7967nnnnnnnnn</br></br>Admissão para: Bloco Partos - Sala de vigilanciannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnDr(a). VC Testennnnnnnnn",
+      "description": "/////Bloco Partos - Sala de vigilancia; "
+    },
+    {
+      "tipo": "Alta",
+      "data_inicio": null,
+      "data_fim": "",
+      "id": "1392",
+      "titulo": "Alta",
+      "action": "nnnnnnnnnnnnnnnnnn7967nnnnnnnnn<br>/////////Bloco Partos - Sala de vigilanciannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "description": "<br>/////////Bloco Partos - Sala de vigilancia; "
+    }
+  ],
+  "ARRAY_CTGS_INT": null,
+  "AUX_INTS": [
+    {
+      "tipo": "INTERNAMENTO",
+      "start": "26-01-2024 11:02",
+      "end": null,
+      "title": "Internamento",
+      "id_episodio": "1379",
+      "description": "<br>/////////Bloco partos - Sala de partos; "
+    },
+    {
+      "tipo": "INTERNAMENTO",
+      "start": "31-01-2024 ",
+      "end": null,
+      "title": "Internamento",
+      "id_episodio": "1385",
+      "description": "<br>/////////; "
+    },
+    {
+      "tipo": "INTERNAMENTO",
+      "start": "17-02-2024 13:19",
+      "end": null,
+      "title": "Internamento",
+      "id_episodio": "1392",
+      "description": "<br>/////////Bloco Partos - Sala de vigilancia; "
+    }
+  ],
+  "VARS": {
+    "id_episodio": "1392",
+    "id_doente": "10443",
+    "id_sessao": "",
+    "id_registo_obst": "",
+    "tipo_gesta": "",
+    "tipo_calc": "",
+    "ige": "",
+    "data_gesta": "",
+    "data_calculo": "01-01-2024",
+    "data_parto": "",
+    "puerperio": "",
+    "dias_puerperio": "",
+    "sexo": "",
+    "vivo": "s",
+    "epis_parto": "",
+    "dias_internado": "5",
+    "esta_internado": "S",
+    "tira": null,
+    "ctgs": "",
+    "ecos": "",
+    "partograma": null,
+    "eventosCSP": null
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Data Display</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vis-timeline-graph2d.min.js"></script>
+    <script src="js/clinical-timeline.js"></script>
+    <script src="js/index.global.min.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <!-- Filters Toogle Button -->
+            <button id="toggleFilterButton" class="icon-button" title="Show/Hide Filters">
+                <img src="icons/filterToogleButton.png" alt="Toggle Filters" />
+            </button>
+            <div id="calendar"></div>
+            <div id="timeline">
+                <!-- Filters -->
+                <section class="containerTimeline" id="filterSection">
+                    <!-- Content Filter -->
+                    <div class="dropdownlist">
+                        <button class="generic-button" id="groupDropdownButton" type="text" placeholder="Select Groups">Content</button>
+                        <div class="list" id="groupList"></div>
+                    </div> 
+                    <!-- Calendar Button -->
+                    <button class="generic-button" placeholder="Open" id="CalendarButton">Calendar</button>
+
+                    <!-- Time Range Filter -->
+                    <div class="date-filter">
+                        <label class="date-filterLabel" for="startDate">Initial Date:</label>
+                        <input type="date" id="startDate">
+
+                        <label class="date-filterLabel" for="endDate">Final Date:</label>
+                        <input type="date" id="endDate">
+
+                        <button class="generic-button" onclick="updateTimelineData()">View</button>
+                    </div>
+                </section>
+
+                <!-- Timeline -->
+                <div id="visualization"></div>
+            </div>
+        </div>
+    </body>
+</html>

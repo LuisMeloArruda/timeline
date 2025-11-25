@@ -1,0 +1,128 @@
+[
+  {
+    "doente": { "num_utente": "123456785" },
+    "reacao_adversa": {
+      "descricao": "Eritema multiforme",
+      "data_reacao": "2025-05-12",
+      "duracao": "5 dias",
+      "gravidade": "grave",
+      "confirmada_clinicamente": true,
+      "evolucao": "Cura com sequelas",
+      "medicamento": {
+        "nome": "Lamotrigina",
+        "data_inicio_medicacao": "2025-04-30",
+        "data_fim_medicacao": ""
+      },
+      "origem_informacao": {
+        "registado_por": "Teste RAM 01",
+        "origem_informacao": "SCLINICO"
+      },
+      "observacoes": "Paciente desenvolveu lesões cutâneas após aumento da dose."
+    }
+  },
+  {
+    "doente": { "num_utente": "123456785" },
+    "reacao_adversa": {
+      "descricao": "Broncoespasmo",
+      "data_reacao": "2021-06-03",
+      "duracao": "2 dias",
+      "gravidade": "moderada",
+      "confirmada_clinicamente": true,
+      "evolucao": "Em recuperação",
+      "medicamento": {
+        "nome": "Aspirina",
+        "data_inicio_medicacao": "2021-05-25",
+        "data_fim_medicacao": "2021-06-03"
+      },
+      "origem_informacao": {
+        "registado_por": "Profissional Simulado",
+        "origem_informacao": "SIRAI"
+      },
+      "observacoes": "Paciente com histórico de asma apresentou dificuldade respiratória."
+    }
+  },
+  {
+    "doente": { "num_utente": "123456785" },
+    "reacao_adversa": {
+      "descricao": "Náusea",
+      "data_reacao": "2023-09-15",
+      "duracao": "1 dia",
+      "gravidade": "ligeira",
+      "confirmada_clinicamente": false,
+      "evolucao": "Desconhecida",
+      "medicamento": {
+        "nome": "Metformina",
+        "data_inicio_medicacao": "2023-09-10",
+        "data_fim_medicacao": "2023-09-15"
+      },
+      "origem_informacao": {
+        "registado_por": "Utilizador Demonstração",
+        "origem_informacao": "SCLINICO"
+      },
+      "observacoes": "Paciente relatou mal-estar após a primeira dose."
+    }
+  },
+  {
+    "doente": { "num_utente": "123456785" },
+    "reacao_adversa": {
+      "descricao": "Prurido",
+      "data_reacao": "1985-05-20",
+      "duracao": "3 dias",
+      "gravidade": "moderada",
+      "confirmada_clinicamente": true,
+      "evolucao": "Cura",
+      "medicamento": {
+        "nome": "Amoxicilina",
+        "data_inicio_medicacao": "1985-05-15",
+        "data_fim_medicacao": "1985-05-20"
+      },
+      "origem_informacao": {
+        "registado_por": "Dado de Ensaio",
+        "origem_informacao": "SIRAI"
+      },
+      "observacoes": "Paciente apresentou coceira generalizada após 5 dias de tratamento."
+    }
+  },
+  {
+    "doente": { "num_utente": "123456785" },
+    "reacao_adversa": {
+      "descricao": "Urticária",
+      "data_reacao": "2025-06-01",
+      "duracao": "2 dias",
+      "gravidade": "ligeira",
+      "confirmada_clinicamente": true,
+      "evolucao": "Cura",
+      "medicamento": {
+        "nome": "Ibuprofeno",
+        "data_inicio_medicacao": "2025-05-28",
+        "data_fim_medicacao": ""
+      },
+      "origem_informacao": {
+        "registado_por": "Registo Exemplo",
+        "origem_informacao": "SCLINICO"
+      },
+      "observacoes": "Lesões cutâneas desapareceram após suspensão do medicamento."
+    }
+  },
+  {
+    "doente": { "num_utente": "123456790" },
+    "reacao_adversa": {
+      "descricao": "Dispneia",
+      "data_reacao": "2025-05-18",
+      "duracao": "1 dia",
+      "gravidade": "grave",
+      "confirmada_clinicamente": true,
+      "evolucao": "Morte possivelmente relacionada com a RAM",
+      "medicamento": {
+        "nome": "Amiodarona",
+        "data_inicio_medicacao": "2025-05-10",
+        "data_fim_medicacao": "2025-05-18"
+      },
+      "origem_informacao": {
+        "registado_por": "Exemplo Técnico",
+        "origem_informacao": "SIRAI"
+      },
+      "observacoes": "Paciente apresentou dificuldade respiratória severa após administração."
+    }
+  }
+]
